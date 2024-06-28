@@ -35,6 +35,7 @@ feeds:
   - url: https://journal.paoloamoroso.com/feed/
   - url: https://jvns.ca/atom.xml
   - url: https://kmcd.dev/posts/index.xml
+  - url: https://krueger.ink/feed/
   - url: https://lewisdale.dev/feed/
   - url: https://louplummer.lol/feed.atom
   - url: https://medium.com/feed/hashicorp-engineering
