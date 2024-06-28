@@ -20,35 +20,77 @@ const defaultFetchWeeks = 4
 const defaultRepo = "chillfeed/chillfeed"
 const defaultTagline = "☕ A relaxed feed aggregator powered by GitHub Actions."
 
-type Feed struct {
-	URL   string `yaml:"url"`
-	Title string `yaml:"title,omitempty"`
+type Article struct {
+	FeedAuthor   string    `json:"feedAuthor"`
+	FeedTitle    string    `json:"feedTitle"`
+	FirstFetched time.Time `json:"firstFetched"`
+	Homepage     string    `json:"homepage"`
+	Link         string    `json:"link"`
+	Published    time.Time `json:"published"`
+	Summary      string    `json:"summary"`
+	Title        string    `json:"title"`
 }
 
 type Config struct {
-	Feeds           []Feed `yaml:"feeds"`
 	ArticlesPerPage int    `yaml:"articlesPerPage,omitempty"`
+	Feeds           []Feed `yaml:"feeds"`
 	FetchWeeks      int    `yaml:"fetchWeeks,omitempty"`
 	Repo            string `yaml:"repo,omitempty"`
 	Tagline         string `yaml:"tagline,omitempty"`
 }
 
-type Article struct {
-	Title      string    `json:"title"`
-	Summary    string    `json:"summary"`
-	Link       string    `json:"link"`
-	Published  time.Time `json:"published"`
-	FeedTitle  string    `json:"feedTitle"`
-	FeedAuthor string    `json:"feedAuthor"`
-	Homepage   string    `json:"homepage"`
+type Feed struct {
+	Title string `yaml:"title,omitempty"`
+	URL   string `yaml:"url"`
 }
 
-type Metadata struct {
-	TotalPages   int       `json:"totalPages"`
-	LastFetched  time.Time `json:"lastFetched"`
+type FetchLog struct {
+	Articles    map[string]time.Time `json:"articles"`
+	LastCleanup time.Time            `json:"lastCleanup"`
+}
+
+type PageMetadata struct {
 	FetchedWeeks int       `json:"fetchedWeeks"`
+	LastFetched  time.Time `json:"lastFetched"`
 	Repo         string    `json:"repo"`
 	Tagline      string    `json:"tagline"`
+	TotalPages   int       `json:"totalPages"`
+}
+
+func loadFetchLog() (FetchLog, error) {
+	data := FetchLog{
+		Articles:    make(map[string]time.Time),
+		LastCleanup: time.Now(),
+	}
+	file, err := os.ReadFile("web/fetch_log.json")
+	if err != nil {
+		if os.IsNotExist(err) {
+			return data, nil
+		}
+		return data, err
+	}
+	err = json.Unmarshal(file, &data)
+	return data, err
+}
+
+func saveFetchLog(data FetchLog) error {
+	file, err := json.MarshalIndent(data, "", "  ")
+	if err != nil {
+		return err
+	}
+	return os.WriteFile("web/fetch_log.json", file, 0644)
+}
+
+func cleanupFetchLog(data *FetchLog, fetchWeeks int) {
+	now := time.Now()
+	cutoffTime := now.AddDate(0, 0, -14*fetchWeeks) // keep 2x fetch weeks
+
+	for url, fetchTime := range data.Articles {
+		if fetchTime.Before(cutoffTime) {
+			delete(data.Articles, url)
+		}
+	}
+	data.LastCleanup = now
 }
 
 // Helper function to strip HTML tags and limit to a few sentences
@@ -149,6 +191,18 @@ func main() {
 		tagline = config.Tagline
 	}
 
+	fetchLog, err := loadFetchLog()
+	if err != nil {
+		fmt.Printf("Error loading fetch log: %v\n", err)
+		return
+	}
+
+	if time.Since(fetchLog.LastCleanup) > 24*time.Hour {
+		cleanupFetchLog(&fetchLog, fetchWeeks)
+	}
+
+	now := time.Now()
+
 	var articles []Article
 	parser := gofeed.NewParser()
 	ageLimit := time.Now().AddDate(0, 0, -7*fetchWeeks)
@@ -200,20 +254,31 @@ func main() {
 			}
 			limitedSummary := limitSummary(summary, 3) // Limit to 3 sentences
 
+			articleURL := item.Link
+			firstFetched, exists := fetchLog.Articles[articleURL]
+			if !exists {
+				firstFetched = now
+				fetchLog.Articles[articleURL] = firstFetched
+			}
+
 			articles = append(articles, Article{
-				Title:      item.Title,
-				Summary:    limitedSummary,
-				Link:       item.Link,
-				Published:  *item.PublishedParsed,
-				FeedTitle:  feedTitle,
-				FeedAuthor: feedAuthor,
-				Homepage:   feedHomepage,
+				FeedAuthor:   feedAuthor,
+				FeedTitle:    feedTitle,
+				FirstFetched: firstFetched,
+				Homepage:     feedHomepage,
+				Link:         item.Link,
+				Published:    *item.PublishedParsed,
+				Summary:      limitedSummary,
+				Title:        item.Title,
 			})
 		}
 	}
 
-	// Sort articles by published date, newest first
+	// Sort articles by publication date (for grouping) and then by first fetch time
 	sort.Slice(articles, func(i, j int) bool {
+		if articles[i].Published.Format("2006-01-02") == articles[j].Published.Format("2006-01-02") {
+			return articles[i].FirstFetched.After(articles[j].FirstFetched)
+		}
 		return articles[i].Published.After(articles[j].Published)
 	})
 
@@ -267,25 +332,30 @@ func main() {
 		}
 	}
 
-	// Create a metadata file with page count, last fetch time, and number of weeks fetched
-	metadataFile, err := os.Create("web/articles/metadata.json")
+	// Create a page metadata file with page count, last fetch time, and number of weeks fetched
+	pageMetadataFile, err := os.Create("web/articles/page_metadata.json")
 	if err != nil {
-		fmt.Printf("Error creating metadata file: %v\n", err)
+		fmt.Printf("Error creating page metadata file: %v\n", err)
 		return
 	}
-	defer metadataFile.Close()
+	defer pageMetadataFile.Close()
 
-	metadata := Metadata{
-		TotalPages:   totalPages,
-		LastFetched:  time.Now().UTC(),
+	pageMetadata := PageMetadata{
 		FetchedWeeks: fetchWeeks,
+		LastFetched:  time.Now().UTC(),
 		Repo:         repo,
 		Tagline:      tagline,
+		TotalPages:   totalPages,
 	}
-	encoder := json.NewEncoder(metadataFile)
-	err = encoder.Encode(metadata)
+	encoder := json.NewEncoder(pageMetadataFile)
+	err = encoder.Encode(pageMetadata)
 	if err != nil {
-		fmt.Printf("Error encoding metadata JSON: %v\n", err)
+		fmt.Printf("Error encoding page metadata JSON: %v\n", err)
+	}
+
+	err = saveFetchLog(fetchLog)
+	if err != nil {
+		fmt.Printf("Error saving fetch log: %v\n", err)
 	}
 
 	fmt.Println("Articles fetched, sorted, and saved successfully.")
