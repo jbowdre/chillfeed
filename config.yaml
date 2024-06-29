@@ -1,7 +1,7 @@
 articlesPerPage: 10
 fetchWeeks: 1
 tagline: |
-  I built an <a href="https://github.com/chillfeed/chillfeed">experimental little feed aggregator</a> that runs entirely on GitHub.<br>
+  I built a little <a href="https://github.com/chillfeed/chillfeed">experimental feed aggregator</a> that runs entirely on GitHub.<br>
   <i>This</i> is my personal instance where I can browse recent posts from feeds I follow.<br><br>
   I view it as a buffet of delicious ideas to graze on rather than a task list of articles to check off.
 feeds:
