@@ -45,6 +45,7 @@ feeds:
   - url: https://obsidian.md/feed.xml
   - url: https://omglol.news/feed.json
   - url: https://opentofu.org/blog/rss.xml
+  - url: https://pimoore.ca/feed.xml
   - url: https://pluralistic.net/feed/
   - url: https://rknight.me/subscribe/posts/rss.xml
   - url: https://rscottjones.com/feed/
