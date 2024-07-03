@@ -27,7 +27,7 @@ feeds:
   - url: https://edfishjr.com/feed/
   - url: https://feedpress.me/coryd
   - url: https://frills.dev/rss.xml
-  - url: https://gkeenan.co/avgb?format=rss
+  - url: https://gkeenan.co/avgb/feed.xml
   - url: https://grahamhelton.com/blog/index.xml
   - url: https://hamvocke.com/feed.xml
     title: Ham Vocke
