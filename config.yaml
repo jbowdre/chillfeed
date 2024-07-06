@@ -63,6 +63,7 @@ feeds:
   - url: https://tailscale.dev/feed.xml
   - url: https://thedent.net/feed.atom
   - url: https://that-bloke.com/feed/
+  - url: https://wand3r.net/feed/
   - url: https://world.hey.com/corlin/feed.atom
   - url: https://www.hashicorp.com/blog/feed.xml
   - url: https://www.lastweekinaws.com/feed/
