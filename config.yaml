@@ -67,4 +67,5 @@ feeds:
   - url: https://world.hey.com/corlin/feed.atom
   - url: https://www.hashicorp.com/blog/feed.xml
   - url: https://www.lastweekinaws.com/feed/
+  - url: https://www.wheresyoured.at/rss/
   - url: https://yordi.me/feed/
