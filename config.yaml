@@ -13,6 +13,7 @@ feeds:
   - url: https://about.gitlab.com/security-releases.xml
   - url: https://austinross.xyz/rss.xml
   - url: https://binarydigit.cafe/feed/
+  - url: https://binarydigit.dev/feed/
   - url: https://birming.com/feed/
   - url: https://blog.autumnrain.cc/rss.xml
   - url: https://blog.controld.com/rss/
