@@ -11,7 +11,9 @@ feeds:
   - url: http://xkcd.com/rss.xml
   - url: https://alexandrawolfe.ca/feed/
   - url: https://about.gitlab.com/security-releases.xml
+  - url: https://adactio.com/journal/rss
   - url: https://austinross.xyz/rss.xml
+  - url: https://bacardi55.io/posts/index.xml
   - url: https://binarydigit.cafe/feed/
   - url: https://binarydigit.dev/feed/
   - url: https://birming.com/feed/
@@ -68,6 +70,7 @@ feeds:
   - url: https://thedent.net/feed.atom
   - url: https://that-bloke.com/feed/
   - url: https://wand3r.net/feed/
+  - url: https://weblog.anniegreens.lol/feed.json
   - url: https://world.hey.com/corlin/feed.atom
   - url: https://www.hashicorp.com/blog/feed.xml
   - url: https://www.lastweekinaws.com/feed/
