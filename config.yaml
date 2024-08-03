@@ -19,11 +19,11 @@ feeds:
   - url: https://birming.com/feed/
   - url: https://blog.autumnrain.cc/rss.xml
   - url: https://blog.controld.com/rss/
-  - url: https://blog.jbowdre.lol/feed/
   - url: https://blog.mojeek.com/atom.xml
   - url: https://boehs.org/in/blog.xml
   - url: https://briangreen.net/rss.xml
   - url: https://bunny.net/blog/rss/
+  - url: https://cabel.com/feed/
   - url: https://citationneeded.news/rss/
   - url: https://cool-as-heck.blog/index.xml
   - url: https://crankysec.com/feed/feed.xml
@@ -34,28 +34,33 @@ feeds:
   - url: https://f-droid.org/feed.xml
   - url: https://fictionalwolfe.bearblog.dev/feed
   - url: https://frills.dev/rss.xml
+  - url: https://garrido.io/index.xml
   - url: https://gkeenan.co/avgb/feed.xml
   - url: https://grahamhelton.com/blog/index.xml
   - url: https://hamvocke.com/feed.xml
     title: Ham Vocke
   - url: https://home-assistant.io/atom.xml
   - url: https://immich.app/blog/rss.xml
+  - url: https://infrequently.org/feed/
   - url: https://journal.paoloamoroso.com/feed/
   - url: https://jvns.ca/atom.xml
   - url: https://kmcd.dev/posts/index.xml
   - url: https://krueger.ink/feed/
   - url: https://lewisdale.dev/feed/
   - url: https://louplummer.lol/feed.atom
+  - url: https://lubieniebieski.pl/feed.xml
   - url: https://matduggan.com/rss/
     title: Mat Duggan
   - url: https://medium.com/feed/hashicorp-engineering
   - url: https://melkat.blog/rss.xml
   - url: https://newsletter.goodtechthings.com/feed
   - url: https://notes.jeddacp.com/feed/
+  - url: https://notes.neatnik.net/feed.json
   - url: https://obsidian.md/feed.xml
   - url: https://omglol.news/feed.json
   - url: https://opentofu.org/blog/rss.xml
   - url: https://pimoore.ca/feed.xml
+  - url: https://potch.me/rss.xml
   - url: https://pluralistic.net/feed/
   - url: https://rknight.me/subscribe/posts/rss.xml
   - url: https://rscottjones.com/feed/
@@ -64,6 +69,7 @@ feeds:
   - url: https://seirdy.one/posts/atom.xml
   - url: https://simplex.chat/feed.rss
   - url: https://snikket.org/blog/index.xml
+  - url: https://srsbsns.lol/feed/
   - url: https://stuffandthings.lol/feed.xml
   - url: https://tailscale.com/blog/index.xml
   - url: https://tailscale.dev/feed.xml
@@ -72,7 +78,9 @@ feeds:
   - url: https://wand3r.net/feed/
   - url: https://weblog.anniegreens.lol/feed.json
   - url: https://world.hey.com/corlin/feed.atom
+  - url: https://www.fromjason.xyz/feed/feed.json
   - url: https://www.hashicorp.com/blog/feed.xml
+  - url: https://www.joshwcomeau.com/rss.xml
   - url: https://www.lastweekinaws.com/feed/
   - url: https://www.wheresyoured.at/rss/
   - url: https://yordi.me/feed/
