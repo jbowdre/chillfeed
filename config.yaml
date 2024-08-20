@@ -61,7 +61,7 @@ feeds:
   - url: https://newsletter.goodtechthings.com/feed
   - url: https://notes.jeddacp.com/feed/
   - url: https://notes.neatnik.net/feed.json
-  - url: https://obsidian.md/feed.xml
+  - url: https://ntietz.com/atom.xml
   - url: https://omglol.news/feed.json
   - url: https://opentofu.org/blog/rss.xml
   - url: https://pimoore.ca/feed.xml
