@@ -56,7 +56,6 @@ feeds:
   - url: https://matduggan.com/rss/
     title: Mat Duggan
   - url: https://medium.com/feed/hashicorp-engineering
-  - url: https://medium.com/feed/@joshleecreates
   - url: https://medium.com/feed/@potto_94870
   - url: https://melkat.blog/rss.xml
   - url: https://newsletter.goodtechthings.com/feed
@@ -87,6 +86,7 @@ feeds:
   - url: https://world.hey.com/corlin/feed.atom
   - url: https://www.fromjason.xyz/feed/feed.json
   - url: https://www.hashicorp.com/blog/feed.xml
+  - url: https://www.joshuamlee.com/feed.xml
   - url: https://www.joshwcomeau.com/rss.xml
   - url: https://www.lastweekinaws.com/feed/
   - url: https://www.wheresyoured.at/rss/
