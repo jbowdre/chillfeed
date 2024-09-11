@@ -1,5 +1,6 @@
 {
   "articles": {
+    "https://about.gitlab.com/releases/2024/09/11/patch-release-gitlab-17-3-2-released/": "2024-09-11T23:03:58.349007576Z",
     "https://adactio.com/journal/21386": "2024-09-02T13:07:17.181169867Z",
     "https://adactio.com/journal/21397": "2024-09-08T11:03:51.996564374Z",
     "https://adactio.com/journal/21405": "2024-09-10T15:03:48.937985513Z",
@@ -123,6 +124,7 @@
     "https://omglol.news/2024/08/28/supporting-st-jude-with-a-month-of-awesomeness": "2024-08-28T15:03:50.03594298Z",
     "https://pimoore.ca/2024/08/30/chchchchchanges.html": "2024-08-31T01:30:41.261937478Z",
     "https://pimoore.ca/2024/09/10/i-have-a.html": "2024-09-11T04:05:48.65957376Z",
+    "https://pimoore.ca/2024/09/11/too-soon.html": "2024-09-11T23:03:58.349007576Z",
     "https://pluralistic.net/2024/09/04/deferred-gratification/": "2024-09-04T18:04:51.653350116Z",
     "https://pluralistic.net/2024/09/09/low-wage-100/": "2024-09-09T13:07:55.875514819Z",
     "https://pluralistic.net/2024/09/11/uninhabited-zone/": "2024-09-11T13:07:28.238174212Z",
@@ -203,7 +205,8 @@
     "https://xkcd.com/2980/": "2024-09-03T01:30:51.063776264Z",
     "https://xkcd.com/2981/": "2024-09-05T03:04:27.337886888Z",
     "https://xkcd.com/2982/": "2024-09-07T03:04:03.166543022Z",
-    "https://xkcd.com/2983/": "2024-09-10T05:04:24.248961627Z"
+    "https://xkcd.com/2983/": "2024-09-10T05:04:24.248961627Z",
+    "https://xkcd.com/2984/": "2024-09-11T23:03:58.349007576Z"
   },
   "lastCleanup": "2024-09-11T08:05:04.967857444Z"
 }
