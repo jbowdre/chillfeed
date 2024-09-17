@@ -1,6 +1,7 @@
 {
   "articles": {
     "https://about.gitlab.com/releases/2024/09/11/patch-release-gitlab-17-3-2-released/": "2024-09-11T23:03:58.349007576Z",
+    "https://about.gitlab.com/releases/2024/09/17/patch-release-gitlab-17-3-3-released/": "2024-09-17T20:04:17.072151675Z",
     "https://adactio.com/journal/21397": "2024-09-08T11:03:51.996564374Z",
     "https://adactio.com/journal/21405": "2024-09-10T15:03:48.937985513Z",
     "https://adactio.com/journal/21421": "2024-09-17T16:04:20.868508548Z",
@@ -169,10 +170,12 @@
     "https://whatever.scalzi.com/2024/09/15/hello-from-brazil/": "2024-09-16T00:17:12.640398044Z",
     "https://whatever.scalzi.com/2024/09/16/26-years-of-whatever/": "2024-09-16T14:03:56.05501786Z",
     "https://whatever.scalzi.com/2024/09/17/the-big-idea-heather-tracy/": "2024-09-17T16:04:20.868508548Z",
+    "https://whatever.scalzi.com/2024/09/17/what-you-should-be-watching-youtube-edition-shaun/": "2024-09-17T20:04:17.072151675Z",
     "https://world.hey.com/corlin/random-notes-09786c28": "2024-09-13T22:03:44.575963096Z",
     "https://world.hey.com/corlin/shopping-day-7df06041": "2024-09-17T17:03:54.934410147Z",
     "https://www.citationneeded.news/hachette-v-internet-archive/": "2024-09-12T20:04:09.269663983Z",
     "https://www.citationneeded.news/issue-65/": "2024-09-06T20:04:12.111001311Z",
+    "https://www.citationneeded.news/issue-66/": "2024-09-17T20:04:17.072151675Z",
     "https://www.hashicorp.com/blog/access-aws-from-hcp-terraform-with-oidc-federation": "2024-09-05T08:05:15.869590723Z",
     "https://www.hashicorp.com/blog/automate-aws-deployments-with-hcp-terraform-and-github-actions": "2024-09-09T12:07:06.497790781Z",
     "https://www.hashicorp.com/blog/madrid-update-our-first-weeks-as-founders": "2024-09-13T18:05:00.070448821Z",
