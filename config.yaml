@@ -77,7 +77,6 @@ feeds:
   - url: https://simplex.chat/feed.rss
   - url: https://snikket.org/blog/index.xml
   - url: https://srsbsns.lol/feed/
-  - url: https://storyhub.micro.blog/feed.xml
   - url: https://stuffandthings.lol/feed.xml
   - url: https://tailscale.com/blog/index.xml
   - url: https://tailscale.dev/feed.xml
