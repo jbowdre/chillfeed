@@ -48,6 +48,7 @@ feeds:
   - url: https://grahamhelton.com/blog/index.xml
   - url: https://hamvocke.com/feed.xml
     title: Ham Vocke
+  - url: https://herman.bearblog.dev/feed/
   - url: https://heydingus.net/feed.rss
   - url: https://home-assistant.io/atom.xml
   - url: https://immich.app/blog/rss.xml
