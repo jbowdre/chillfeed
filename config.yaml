@@ -65,6 +65,7 @@ feeds:
   - url: https://medium.com/feed/hashicorp-engineering
   - url: https://medium.com/feed/@potto_94870
   - url: https://melkat.blog/rss.xml
+  - url: https://mitchellh.com/feed.xml
   - url: https://mph.puddingtime.org/feed.atom
   - url: https://newsletter.goodtechthings.com/feed
   - url: https://notes.jeddacp.com/feed/
