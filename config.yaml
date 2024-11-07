@@ -57,7 +57,7 @@ feeds:
   - url: https://jvns.ca/atom.xml
   - url: https://kmcd.dev/posts/index.xml
   - url: https://notes.krueger.ink/feed/
-  - url: https://lewisdale.dev/feed/
+  - url: https://lewisdale.dev/rss.xml
   - url: https://louplummer.lol/feed.atom
   - url: https://lubieniebieski.pl/feed.xml
   - url: https://lwgrs.bearblog.dev/feed/
