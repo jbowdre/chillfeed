@@ -12,6 +12,7 @@ feeds:
   - url: https://alexandrawolfe.ca/feed/
   - url: https://about.gitlab.com/security-releases.xml
   - url: https://adactio.com/journal/rss
+  - url: https://anniemueller.com/posts_feed
   - url: https://austinross.xyz/rss.xml
   - url: https://bacardi55.io/posts/index.xml
   - url: https://bendaubney.com/feed/
