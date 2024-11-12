@@ -59,6 +59,7 @@ feeds:
   - url: https://kmcd.dev/posts/index.xml
   - url: https://notes.krueger.ink/feed/
   - url: https://lewisdale.dev/rss.xml
+  - url: https://localghost.dev/articles.xml
   - url: https://louplummer.lol/feed.atom
   - url: https://lubieniebieski.pl/feed.xml
   - url: https://lwgrs.bearblog.dev/feed/
