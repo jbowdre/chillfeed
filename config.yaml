@@ -85,6 +85,7 @@ feeds:
   - url: https://saltproject.io/blog/index.xml
   - url: https://seirdy.one/posts/atom.xml
   - url: https://simplex.chat/feed.rss
+  - url: https://sive.rs/en.atom
   - url: https://snikket.org/blog/index.xml
   - url: https://srsbsns.lol/feed/
   - url: https://stuffandthings.lol/feed.xml
