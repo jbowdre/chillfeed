@@ -94,6 +94,7 @@ feeds:
   - url: https://tailscale.dev/feed.xml
   - url: https://thedent.net/feed.atom
   - url: https://that-bloke.com/feed/
+  - url: https://til.computer/posts_feed
   - url: https://wand3r.net/feed/
   - url: https://weblog.anniegreens.lol/feed.json
   - url: https://world.hey.com/corlin/feed.atom
