@@ -36,6 +36,7 @@ feeds:
   - url: https://css-tip.com/feed/feed.xml
   - url: https://cyberwizrdy.bearblog.dev/feed/
   - url: https://davekiss.com/blog.rss
+    title: Dave Kiss
   - url: https://doublepulsar.com/feed
   - url: https://edfishjr.com/feed/
   - url: https://www.fastmail.com/blog/feed.xml
