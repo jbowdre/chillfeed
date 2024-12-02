@@ -9,6 +9,7 @@ feeds:
   - url: http://whatever.scalzi.com/feed/
   - url: http://www.schneier.com/blog/index.rdf
   - url: http://xkcd.com/rss.xml
+  - url: https://32x33.institute/rss/
   - url: https://alexandrawolfe.ca/feed/
   - url: https://about.gitlab.com/security-releases.xml
   - url: https://adactio.com/journal/rss
