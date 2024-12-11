@@ -108,6 +108,7 @@ feeds:
   - url: https://www.hashicorp.com/blog/feed.xml
   - url: https://www.joshuamlee.com/posts/index.xml
   - url: https://www.joshwcomeau.com/rss.xml
+  - url: https://www.virtualizationhowto.com/feed/
   - url: https://www.lastweekinaws.com/feed/
   - url: https://www.wheresyoured.at/rss/
   - url: https://yordi.me/feed/
