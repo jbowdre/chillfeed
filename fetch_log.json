@@ -1,6 +1,5 @@
 {
   "articles": {
-    "https://adactio.com/journal/21606": "2024-12-15T15:03:48.640722621Z",
     "https://adactio.com/journal/21607": "2024-12-16T16:05:12.537784745Z",
     "https://alexandrawolfe.ca/chasing-ghosts/": "2024-12-29T17:03:51.369988155Z",
     "https://alexandrawolfe.ca/jupiter-patrol-1/": "2024-12-29T17:03:51.369988155Z",
@@ -20,7 +19,6 @@
     "https://birming.com/honesty-best-gift/": "2024-12-26T00:16:56.639736491Z",
     "https://brandons-journal.com/2024-pop-culture-year-in-review/": "2024-12-19T04:05:15.030150259Z",
     "https://brandons-journal.com/2024-year-in-review-my-personal-life/": "2024-12-26T06:05:39.415991832Z",
-    "https://brandons-journal.com/creating-a-small-mastodon-instance-for-myself/": "2024-12-14T21:03:55.983038731Z",
     "https://brandons-journal.com/entertainment-as-a-time-machine/": "2024-12-28T05:03:55.245278981Z",
     "https://brandons-journal.com/interviewing-jax-dane-rip/": "2024-12-27T00:17:09.821417107Z",
     "https://brandons-journal.com/learning-to-laugh-at-the-insanity/": "2024-12-26T07:04:07.161675075Z",
@@ -70,7 +68,6 @@
     "https://louplummer.lol/soothing-activities/": "2024-12-20T02:26:39.88178277Z",
     "https://louplummer.lol/the-art-of-not-living-in-fear/": "2024-12-18T02:29:23.151944101Z",
     "https://louplummer.lol/the-joys-of-being-a-grownup/": "2024-12-22T01:31:25.835102664Z",
-    "https://louplummer.lol/the-polar-express/": "2024-12-15T04:04:58.772584091Z",
     "https://louplummer.lol/the-real-me-and-the-real-you/": "2024-12-16T01:32:15.76115109Z",
     "https://louplummer.lol/things-i-don-t-understand/": "2024-12-27T00:17:09.821417107Z",
     "https://louplummer.lol/what-makes-us-who-we-are/": "2024-12-28T00:16:52.809207926Z",
@@ -82,7 +79,6 @@
     "https://mihobu.lol/weeknotes-week-50-2024": "2024-12-18T00:17:41.251823183Z",
     "https://mihobu.lol/weeknotes-week-51-2024": "2024-12-25T08:05:30.013170813Z",
     "https://mitchellh.com/writing/ghostty-1-0-reflection": "2024-12-26T21:03:42.786111333Z",
-    "https://mph.puddingtime.org/post/hiatus": "2024-12-15T17:03:41.862345423Z",
     "https://notes.jeddacp.com/100daystooffload-2024/": "2024-12-20T17:04:01.980324557Z",
     "https://notes.jeddacp.com/beartown-by-fredrik-backman/": "2024-12-23T20:04:13.100261955Z",
     "https://notes.jeddacp.com/looking-for-alaska-by-john-green/": "2024-12-23T22:03:47.233280608Z",
@@ -153,7 +149,6 @@
     "https://www.fastmail.com/blog/offline-in-beta/": "2024-12-16T03:19:33.982535981Z",
     "https://www.fastmail.com/blog/offline-mail-storage/": "2024-12-19T01:31:50.242393963Z",
     "https://www.fastmail.com/blog/offline-sync/": "2024-12-18T01:31:52.177053887Z",
-    "https://www.fastmail.com/blog/platform-team-working-agreement/": "2024-12-15T00:20:38.851536455Z",
     "https://www.fastmail.com/blog/ten-years-of-jmap/": "2024-12-23T00:17:58.468362798Z",
     "https://www.fastmail.com/blog/twenty-five-years-of-fastmail/": "2024-12-24T00:17:08.213867032Z",
     "https://www.fastmail.com/blog/why-we-use-our-own-hardware/": "2024-12-22T02:28:40.348654957Z",
@@ -176,7 +171,6 @@
     "https://www.schneier.com/blog/archives/2024/12/scams-based-on-fake-google-emails.html": "2024-12-26T17:03:51.984004619Z",
     "https://www.schneier.com/blog/archives/2024/12/short-lived-certificates-coming-to-lets-encrypt.html": "2024-12-16T12:07:32.037155633Z",
     "https://www.schneier.com/blog/archives/2024/12/spyware-maker-nso-group-found-liable-for-hacking-whatsapp.html": "2024-12-24T12:06:40.650023888Z",
-    "https://www.troyhunt.com/weekly-update-430/": "2024-12-15T13:08:15.935162874Z",
     "https://www.troyhunt.com/weekly-update-431/": "2024-12-25T10:04:07.23192471Z",
     "https://www.virtualizationhowto.com/2024/12/5-gitops-tools-that-you-need-to-know/": "2024-12-16T16:05:12.537784745Z",
     "https://www.virtualizationhowto.com/2024/12/5-tips-to-get-started-with-a-home-lab/": "2024-12-25T15:03:55.390067868Z",
@@ -196,5 +190,5 @@
     "https://xkcd.com/3029/": "2024-12-26T01:31:22.486530194Z",
     "https://xkcd.com/3030/": "2024-12-27T23:04:00.560831048Z"
   },
-  "lastCleanup": "2024-12-28T19:03:51.16143702Z"
+  "lastCleanup": "2024-12-29T20:03:57.460881552Z"
 }
