@@ -61,6 +61,7 @@ feeds:
   - url: https://www.jeffgeerling.com/blog.xml
   - url: https://journal.paoloamoroso.com/feed/
   - url: https://jvns.ca/atom.xml
+  - url: https://kevingimbel.de/feed
   - url: https://kmcd.dev/posts/index.xml
   - url: https://notes.krueger.ink/feed/
   - url: https://lewisdale.dev/rss.xml
