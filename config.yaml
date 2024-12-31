@@ -56,6 +56,7 @@ feeds:
   - url: https://home-assistant.io/atom.xml
   - url: https://immich.app/blog/rss.xml
   - url: https://infrequently.org/feed/
+  - url: https://jack.is/rss.xml
   - url: https://www.jeffgeerling.com/blog.xml
   - url: https://journal.paoloamoroso.com/feed/
   - url: https://jvns.ca/atom.xml
