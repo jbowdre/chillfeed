@@ -17,11 +17,10 @@ feeds:
   - url: https://austinross.xyz/rss.xml
   - url: https://bacardi55.io/posts/index.xml
   - url: https://bendaubney.com/feed/
-  - url: https://bikesandthings.lol/feed/feed.xml/
-  - url: https://binarydigit.city/posts_feed
+  - url: https://blog.binarydigit.city/posts_feed
   - url: https://binarydigit.dev/feed/
   - url: https://birming.com/feed/
-  - url: https://blog.autumnrain.cc/rss.xml
+  - url: https://blog.autumnrain.cc/rss/
   # - url: https://blog.controld.com/rss/ # this has turned spammy lately
   - url: https://blog.flipper.net/rss/
   - url: https://blog.mojeek.com/atom.xml
@@ -42,7 +41,6 @@ feeds:
   - url: https://doublepulsar.com/feed
   - url: https://edfishjr.com/feed/
   - url: https://www.fastmail.com/blog/feed.xml
-  - url: https://feedpress.me/coryd
   - url: https://feeds.feedburner.com/TroyHunt
   - url: https://f-droid.org/feed.xml
   - url: https://frills.dev/rss.xml
@@ -96,7 +94,7 @@ feeds:
   - url: https://snikket.org/blog/index.xml
   - url: https://srsbsns.lol/feed/
   - url: https://stfn.pl/rss.xml
-  - url: https://stuffandthings.lol/feed.xml
+  - url: https://stuffandthings.lol/feed/feed.xml
   - url: https://tailscale.com/blog/index.xml
   - url: https://tailscale.dev/feed.xml
   - url: https://thedent.net/feed.atom
@@ -108,7 +106,7 @@ feeds:
   - url: https://world.hey.com/corlin/feed.atom
   - url: https://www.fromjason.xyz/feed/feed.json
   - url: https://www.hashicorp.com/blog/feed.xml
-  - url: https://www.joshuamlee.com/posts/index.xml
+  - url: https://www.joshuamlee.com/index.xml
   - url: https://www.joshwcomeau.com/rss.xml
   - url: https://www.virtualizationhowto.com/feed/
   - url: https://www.lastweekinaws.com/feed/
