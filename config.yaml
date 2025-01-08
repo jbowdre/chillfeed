@@ -90,6 +90,7 @@ feeds:
   - url: https://rscottjones.com/feed/
   - url: https://runtimeterror.dev/feed.xml
   - url: https://saltproject.io/blog/index.xml
+  - url: https://selfh.st/rss/
   - url: https://seirdy.one/posts/atom.xml
   - url: https://simplex.chat/feed.rss
   - url: https://sive.rs/en.atom
