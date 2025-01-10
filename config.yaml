@@ -102,6 +102,7 @@ feeds:
   - url: https://tailscale.dev/feed.xml
   - url: https://thedent.net/feed.atom
   - url: https://that-bloke.com/feed/
+  - url: https://thomasrigby.com/feed.xml
   - url: https://til.computer/posts_feed
   - url: https://wand3r.net/feed/
   - url: https://waitbutwhy.com/feed
